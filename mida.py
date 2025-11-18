@@ -12,8 +12,8 @@ def safe_filename(filename):
     return re.sub(r'[\\/*?:"<>|]', "", filename).strip()
 
 # 输入凭据
-token = 'kY3zkqtiSkMnp5jwlohFvV7ZRZX25141RduaSZIR9LE.A45l8y-Rqr4p4g1URO05BeHvMwTlAZkNMoT18SEU62s'
-uid = '63085381'
+token = 'xxx.xx-xxx'
+uid = 'xxx'
 
 # 配置参数
 audio_folder = 'audio'
@@ -135,4 +135,5 @@ with tqdm(total=len(all_items), desc="下载进度", unit="file") as pbar:
             continue
 
 print("\n全部下载任务完成！")
+
 
